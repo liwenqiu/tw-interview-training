@@ -1,0 +1,6 @@
+mvn package
+java -jar ./target/trains-1.0-SNAPSHOT.jar data.txt
+
+
+There is class 'Town' used to represent a node in graph, it keep a connection with another town through its neighbors property. The class 'RouteMap' holds all the towns and main algorithms to implement. The third domain class is 'Path', it is used to represent  the path and distance from one town to another. Multiple paths can be connected together through each path of 'nextPath'.
+
